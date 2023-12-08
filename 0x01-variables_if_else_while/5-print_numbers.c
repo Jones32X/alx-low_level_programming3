@@ -2,7 +2,7 @@
 
 /**
  * main - prints numbers from base 10
- * Retur: 0 Success
+ * Return: 0 Success
  */
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 	{
 		printf("%d", num);
 	}
-	printf ("\n");
+	printf("\n");
 
 	return (0);
 
