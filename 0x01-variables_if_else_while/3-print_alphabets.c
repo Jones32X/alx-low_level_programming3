@@ -10,16 +10,17 @@ int main(void)
 {
 	int j = 'A', k = 'a';
 
-	while (j <='Z')
+	for (; k <= 'z'; k++)
+        {
+                putchar(k);
+        }
+
+	while (j <= 'Z')
 	{
 		putchar(j);
 		j++;
 	}
 
-	for (; k <= 'z'; k++)
-	{
-		putchar(k);
-	}
 	putchar('\n');
 
 	return (0);
