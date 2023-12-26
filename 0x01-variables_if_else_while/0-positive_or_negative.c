@@ -3,8 +3,7 @@
 #include <time.h>
 
 /**
- * main: program assigns random number to the variable
- * n
+ * main -  program assigns random number to the variable
  * Return: 0 if Success
  */
 
