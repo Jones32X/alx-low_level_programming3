@@ -1,21 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers of base 10 using putchar
- * Return: (0);
+ * main - numbers to base 10 with putchar
+ * Return: 0 is Succes
  */
 
 int main(void)
 {
-	int num = 0;
+	int p;
 
-	while (num < 10)
-	{
-		putchar(num + '0');
-		num++;
-	}
+	p = 0;
+
+	do {
+		putchar(p + '0');
+		p++;
+
+	} while (p < 10);
+
 	putchar('\n');
 
 	return (0);
-
 }
