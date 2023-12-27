@@ -1,17 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers from base 10
- * Return: 0 Success
+ * main - numbers from base 10 printed,
+ * starting from zero.
+ * Return: 0 Success;
  */
 
 int main(void)
 {
-	int num = 0;
+	int n;
 
-	for (; num < 10; num++)
+	n = 0;
+
+	while (n < 10)
 	{
-		printf("%d", num);
+		printf("%d", n);
+		n++;
 	}
 	printf("\n");
 
